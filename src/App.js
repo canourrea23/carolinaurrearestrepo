@@ -8,6 +8,14 @@ import './App.css';
 
 import Welcome from './components/Welcome';
 import Navbar from './components/Navbar';
+import Profile from './components/Profile';
+import Signup from './components/Signup';
+import Footer from './components/Footer';
+import Login from './components/Login';
+import About from './components/About';
+
+
+
 
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
@@ -37,7 +45,7 @@ function App() {
     setCurrentUser(userData);
     setIsAuthenticated(true);
   }
-  
+
   const handleLogout = () => {
     if (localStorage.getItem('jwtToken')) {
       localStorage.removeItem('jwtToken');
@@ -48,8 +56,19 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Navbar handleLogout={handleLogout} isAuth={isAuthenticated} />       */}
-      <Welcome />
+      <Navbar handleLogout={handleLogout} isAuth={isAuthenticated} />      
+      <div className="container mt-5">
+        <Switch>
+          <Route path='/signup' component={ Signup } />
+          <Route 
+            path='/login' 
+            render={ (props) => <Login {...props} nowCurrentUser={ nowCurrentUser } setIsAuthenticated={ setIsAuthenticated } user={ currentUser }/>} />
+          <Route path='/about' component={ About } />
+          <PrivateRoute path='/profile' component={ Profile } user={ currentUser } />
+          <Route exact path="/" component={ Welcome }/>
+        </Switch>
+      </div>
+      <Footer />
     </div>
   );
 }
