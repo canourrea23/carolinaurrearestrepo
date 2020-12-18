@@ -37,6 +37,7 @@ function App() {
     setCurrentUser(userData);
     setIsAuthenticated(true);
   }
+  
   const handleLogout = () => {
     if (localStorage.getItem('jwtToken')) {
       localStorage.removeItem('jwtToken');
