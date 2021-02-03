@@ -1,33 +1,33 @@
-import React, { useEffect, useState } from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
-import { Component } from 'react';
+import React, { useEffect, useState } from "react";
+import { Route, Switch, Redirect } from "react-router-dom";
+import { Component } from "react";
 
-import './App.css';
+import "./App.css";
 
 // import Welcome from './components/Welcome';
-import Navbar from './components/Navbar';
-import Profile from './components/Profile';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import SetAside from './components/SetAside';
-import SaveTheBurger from './components/SaveTheBurger';
-import DevJobsUsa from './components/DevJobsUsa';
-import Genocafe from  './components/Genocafe'
+import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import SetAside from "./components/SetAside";
+import SaveTheBurger from "./components/SaveTheBurger";
+import DevJobsUsa from "./components/DevJobsUsa";
+import Genocafe from "./components/Genocafe";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>      
+      <Navbar />
       <div className="container mt-5">
-        <Header/>
+        <Header />
         <div></div>
         <Switch>
           {/* <Route path='/signup' component={ Signup } /> */}
-          <Route exact path="/" component={ Profile }/>
-          <Route exact path="/SaveTheBurger" component={ SaveTheBurger}/>
-          <Route exactpath='/DevJobsUsa' component={ DevJobsUsa } />
-          <Route exact path='/SetAside' component={ SetAside } />
-           <Route exact path='/Genocafe' component={ Genocafe } />
+          <Route exact path="/" component={Profile} />
+          <Route exact path="/SaveTheBurger" component={SaveTheBurger} />
+          <Route exactpath="/DevJobsUsa" component={DevJobsUsa} />
+          <Route exact path="/SetAside" component={SetAside} />
+          <Route exact path="/Genocafe" component={Genocafe} />
         </Switch>
       </div>
       <Footer />

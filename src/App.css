@@ -408,8 +408,8 @@ footer a:hover .icon-label {
 }
 
 .portfolio-item.blackjack {
-	/* background: url('../img/blackjack-background.jpg') no-repeat; */
-  	background-size: 180%;
+	background: url('https://res.cloudinary.com/carolinaurrea/image/upload/v1612362972/Screen_Shot_2021-02-03_at_9.36.01_AM_vhpptq.png') no-repeat;
+  	background-size: 100%;
   	background-position: 50% 50%;
 }
 
@@ -429,7 +429,10 @@ footer a:hover .icon-label {
 	color: var(--font-color);
 }
 
-.portfolio-item.blackjack h3, .portfolio-item.blackjack h5, .portfolio-item.plant h5 {
+.portfolio-item.blackjack h3, .portfolio-item.blackjack h5{
+	color:var(--purple-color)
+}
+.portfolio-item.plant h5 {
 	color: white;
 }
 
