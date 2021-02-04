@@ -4,17 +4,17 @@ import { Transition } from "react-transition-group";
 const Genocafe = () => {
   return (
     <div>
-      <a href="DevJobsUsa" className="project-arrow back">
+      <a href="/DevJobsUsa" className="project-arrow back">
         <i class="fas fa-caret-left"></i>
       </a>
-      <a href="SetAside" class="project-arrow forward">
+      <a href="/SetAside" class="project-arrow forward">
         <i class="fas fa-caret-right"></i>
       </a>
       <div class="section portfolio">
         <h1>Genocafe</h1>
         <div className="subtext">
           <h5>
-            <b>React.js, MongoDB, Mongoose, Node.js, Express.js</b>
+            <b>React.js, PostgreSQL, Django, Python3</b>
           </h5>
           <h5>
             <b>Role:</b> Front and Back End Developer
@@ -22,7 +22,12 @@ const Genocafe = () => {
           <hr />
         </div>
         <div className="button">
-          {/* <a href="https://canourrea23.github.io/" target="_blank">Live Site</a> */}
+          <a
+            href="https://canourrea23.github.io/genocafe-client"
+            target="_blank"
+          >
+            Live Site
+          </a>
           <a href="https://genocafe-client.herokuapp.com/" target="_blank">
             Github
           </a>

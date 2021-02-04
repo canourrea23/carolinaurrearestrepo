@@ -30,23 +30,18 @@ const Profile = () => {
             {/* <div className="about-item summary transition"></div> */}
             <div className="about-item summary">
               <h2>
-                I’m a front end developer with a deep appreciation for the
-                design process.
+                A Software Engineer never shying away from any opportunity that
+                has come my way.
               </h2>
               <hr />
               <p>
-                With over six years of agency experience in a variety of roles,
-                I understand what it takes for cross-functional teams to be
-                successful. Currently, I'm a web developer at{" "}
-                <a href="http://www.smartsheet.com" target="_blank">
-                  Smartsheet
-                </a>{" "}
-                supporting the demand generation team.
+                I have years of experience with customer service, training new
+                hires, and managing tasks to enable proficiency. I have a range
+                of skills from low-level assembly programming through to high
+                level & scripting languages.
               </p>
               <p>
-                When I’m not coding, you can find me practicing photography and
-                tending to my growing collection of{" "}
-                <a href="plant-parenthood.html">houseplants</a>.
+                I like to spend my time outside of programming with traveling.
               </p>
             </div>
           </div>
@@ -112,34 +107,46 @@ const Profile = () => {
         <h2>Featured Projects</h2>
         <hr />
         <div className="flex-grid">
-          <div className="portfolio-item plant">
-            <a href="/SaveTheBurger" alt="Plant Parenthood"></a>
-            <div className="portfolio-text">
-              <h3>Save the Burger</h3>
-              <h5>HTML | jQuery | JavaScript | HTML Canvas</h5>
+          <div>
+            <div className="portfolio-item plant">
+              {/* <a href="/SaveTheBurger" alt="Plant Parenthood"> */}
+                <div className="portfolio-text">
+                  <h3>Save the Burger</h3>
+                  <h5>HTML | jQuery | JavaScript | HTML Canvas</h5>
+                </div>
+              {/* </a> */}
             </div>
           </div>
-          <div className="portfolio-item skincare">
-            <a href="/DevJobsUsa" alt="Dev Jobs"></a>
-            <div className="portfolio-text">
-              <h3>Job Dev USA</h3>
-              <h5>JavaScript | Sequelize | Node | Data Scrapping</h5>
+          <div>
+            <div className="portfolio-item skincare">
+              {/* <a href="/DevJobsUsa.js" alt="Dev Jobs"> */}
+                <div className="portfolio-text">
+                  <h3>Job Dev USA</h3>
+                  <h5>JavaScript | Sequelize | Node | Data Scrapping</h5>
+                </div>
+              {/* </a> */}
             </div>
           </div>
-          <div className="portfolio-item dream">
-            <a href="/SetAside" alt="SetAside"></a>
-            <div className="portfolio-text">
-              {/* <h3>SetAside</h3> */}
-              <h5 style={{ marginTop: "15%" }}>
-                React | MongoDB | Node | Data Visualization
-              </h5>
+          <div>
+            <div className="portfolio-item dream">
+              {/* <a href="/SetAside" alt="SetAside"> */}
+                <div className="portfolio-text">
+                  {/* <h3>SetAside</h3> */}
+                  <h5 style={{ marginTop: "15%" }}>
+                    React | MongoDB | Node | Data Visualization
+                  </h5>
+                </div>
+              {/* </a> */}
             </div>
           </div>
-          <div className="portfolio-item blackjack">
-            <a href="/Genocafe" alt="genocafe"></a>
-            <div className="portfolio-text">
-              <h3>Genocafe</h3>
-              <h5>React | Django | Python | JavaScript</h5>
+          <div>
+            <div className="portfolio-item blackjack">
+              {/* <a href="/Genocafe" alt="genocafe"> */}
+                <div className="portfolio-text">
+                  <h3>Genocafe</h3>
+                  <h5>React | Django | Python | JavaScript</h5>
+                </div>
+              {/* </a> */}
             </div>
           </div>
         </div>

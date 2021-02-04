@@ -4,17 +4,17 @@ import { Transition } from "react-transition-group";
 const DevJobsUsa = () => {
   return (
     <div>
-      <a href="SetAside" className="project-arrow back">
+      <a href="/SetAside" className="project-arrow back">
         <i class="fas fa-caret-left"></i>
       </a>
-      <a href="Genocafe" class="project-arrow forward">
+      <a href="/Genocafe" class="project-arrow forward">
         <i class="fas fa-caret-right"></i>
       </a>
       <div class="section portfolio">
         <h1>Dev Jobs USA</h1>
         <div className="subtext">
           <h5>
-            <b>React.js, MongoDB, Mongoose, Node.js, Express.js</b>
+            <b>JavaScript, PostgreSQL , Sequelize, Node.js, Express.js</b>
           </h5>
           <h5>
             <b>Role:</b> Front and Back End Developer

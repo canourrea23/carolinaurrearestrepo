@@ -1,13 +1,13 @@
 import React from "react";
-import { Transition } from "react-transition-group";
+// import { Transition } from "react-transition-group";
 
 const SetAside = () => {
   return (
     <div>
-      <a href="skincare.html" className="project-arrow back">
+      <a href="/Genocafe" className="project-arrow back">
         <i class="fas fa-caret-left"></i>
       </a>
-      <a href="SaveTheBurger" class="project-arrow forward">
+      <a href="/SaveTheBurger" class="project-arrow forward">
         <i class="fas fa-caret-right"></i>
       </a>
       <div class="section portfolio">
@@ -40,24 +40,20 @@ const SetAside = () => {
             Github
           </a>
           <p>
-            Dreamstate is an interactive MERN application that enables users to
-            understand their dreams through data visualizations and keyword
-            analysis.
+            We wanted to make an everyday tracker for your finances. A quick and
+            interactional App that can show you how your personalized goals are
+            going with a weekly or monthly update. We have intuitive graphs and
+            tables to make it easy and fun to show your progress and SetAside.
           </p>
           <p>
-            Our objective was to provide engaging dream analysis with as minimal
-            input as possible from the user. Working with the AWS Sentiment API,
-            data scraping, and Recharts, we created a framework that provides
-            data visuals of individual dreams, sentiment over time, and commonly
-            occurring symbols in the user's dreams.
+            SetAside is an application in which users can provide themselves
+            with a budget upon sign up. Afterwards users can the add expenses
+            they have made. Financial data will then be displayed in graphs
+            showing how much a user has spent compared to what they initially
+            budgeted. Previous Monthly breakdowns are available with details on
+            whether a user was over budget or under budget.
           </p>
-          <p>
-            My primary contributions to this project were concepting the overall
-            design direction, front end and responsive development, data
-            scraping, and implementing CRUD routes through React and Mongo. Our
-            group practiced pair programming in the initial sprint and managed
-            workloads through Trello on subsequent sprints.
-          </p>
+          <p>I was encharged of vitually create and input the information .</p>
         </div>
         <div class="portfolio-images">
           <a href="https://set-aside.herokuapp.com/" target="_blank">
