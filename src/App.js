@@ -25,7 +25,7 @@ function App() {
           {/* <Route path='/signup' component={ Signup } /> */}
           <Route exact path="/" component={Profile} />
           <Route exact path="/SaveTheBurger" component={SaveTheBurger} />
-          <Route exactpath="/DevJobsUsa" component={DevJobsUsa} />
+          <Route exact path="/DevJobsUsa" component={DevJobsUsa} />
           <Route exact path="/SetAside" component={SetAside} />
           <Route exact path="/Genocafe" component={Genocafe} />
         </Switch>

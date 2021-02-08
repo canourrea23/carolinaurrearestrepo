@@ -1,6 +1,7 @@
 import React from "react";
 import { nav } from "react-router-dom";
 import { hamburger } from "hamburgers";
+import { Squeeze as Hamburger } from "hamburger-react";
 
 const Navbar = (props) => {
   return (
@@ -27,7 +28,7 @@ const Navbar = (props) => {
         >
           Resume
         </a>
-        <button className="hamburger hamburger--squeeze" type="button">
+        <button className="hamburger hamburger--Squeeze" type="button">
           <span className="hamburger-box">
             <span className="hamburger-inner"></span>
           </span>

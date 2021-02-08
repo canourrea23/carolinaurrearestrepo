@@ -255,7 +255,7 @@ a.nav-resume:hover {
   	-webkit-animation: sizein 1s;
   	-moz-animation:    sizein 1s;
  	-o-animation:      sizein 1s;
-  	animation:         sizein 1s; 
+	  animation:         sizein 1s; 
 }
 
 header {
@@ -284,6 +284,7 @@ header {
 header h1 {
 	display: inline-block;
 	text-transform: uppercase;
+	transform: skewY(-25.5deg);
 	margin: 16px;
 	line-height: 1.1em;
 	font-size: 40px;
@@ -293,6 +294,7 @@ header h4 {
 	display: inline-block;
 	margin: 0 auto;
 	text-transform: capitalize;
+	transform: skewY(-25.5deg);
 	font-size: .45em;
 	font-weight: 500;
 	white-space: nowrap;
@@ -311,6 +313,7 @@ a.green-arrow {
 
 .green-arrow img {
 	width: 35px;
+	transform: skewY(-25deg);
 }
 
 /* Footer */
