@@ -114,12 +114,12 @@ const Profile = () => {
         <div className="flex-grid">
           <div>
             <div className="portfolio-item plant">
-              {/* <a href="/SaveTheBurger" alt="Plant Parenthood"> */}
-              <div className="portfolio-text">
-                <h3>Save the Burger</h3>
-                <h5>HTML | jQuery | JavaScript | HTML Canvas</h5>
-              </div>
-              {/* </a> */}
+              <a href="/SaveTheBurger" alt="Plant Parenthood">
+                <div className="portfolio-text">
+                  <h3>Save the Burger</h3>
+                  <h5>HTML | jQuery | JavaScript | HTML Canvas</h5>
+                </div>
+              </a>
             </div>
           </div>
           <div>
@@ -146,12 +146,12 @@ const Profile = () => {
           </div>
           <div>
             <div className="portfolio-item blackjack">
-              {/* <a href="/Genocafe" alt="genocafe"> */}
-              <div className="portfolio-text">
-                <h3>Genocafe</h3>
-                <h5>React | Django | Python | JavaScript</h5>
-              </div>
-              {/* </a> */}
+              <a href="/Genocafe" alt="genocafe">
+                <div className="portfolio-text">
+                  <h3>Genocafe</h3>
+                  <h5>React | Django | Python | JavaScript</h5>
+                </div>
+              </a>
             </div>
           </div>
         </div>
