@@ -34,18 +34,12 @@ const DevJobsUsa = () => {
             analysis.
           </p>
           <p>
-            Our objective was to provide engaging dream analysis with as minimal
-            input as possible from the user. Working with the AWS Sentiment API,
-            data scraping, and Recharts, we created a framework that provides
-            data visuals of individual dreams, sentiment over time, and commonly
-            occurring symbols in the user's dreams.
+            This website is to be informative data for developers who 
           </p>
           <p>
             My primary contributions to this project were concepting the overall
             design direction, front end and responsive development, data
-            scraping, and implementing CRUD routes through React and Mongo. Our
-            group practiced pair programming in the initial sprint and managed
-            workloads through Trello on subsequent sprints.
+            scraping, and implementing CRUD routes through React and Sequelize.
           </p>
         </div>
         <div class="portfolio-images" style={{ border: "1px solid #81b29a" }}>

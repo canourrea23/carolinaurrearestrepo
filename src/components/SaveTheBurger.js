@@ -32,24 +32,22 @@ const SaveTheBurger = () => {
             Github
           </a>
           <p>
-            Dreamstate is an interactive MERN application that enables users to
-            understand their dreams through data visualizations and keyword
-            analysis.
+            Save the Burger is a platform game platform game with win and lose
+            conditions. The whole game was done in HTML, CSS Canvas, and
+            JavaScript.
           </p>
           <p>
-            Our objective was to provide engaging dream analysis with as minimal
-            input as possible from the user. Working with the AWS Sentiment API,
-            data scraping, and Recharts, we created a framework that provides
-            data visuals of individual dreams, sentiment over time, and commonly
-            occurring symbols in the user's dreams.
+            My game idea was inspired by games like space invaders and
+            centipede. I wanted to make my own twist to it that was new and
+            exciting.
           </p>
-          <p>
+          {/* <p>
             My primary contributions to this project were concepting the overall
             design direction, front end and responsive development, data
             scraping, and implementing CRUD routes through React and Mongo. Our
             group practiced pair programming in the initial sprint and managed
             workloads through Trello on subsequent sprints.
-          </p>
+          </p> */}
         </div>
         <div class="portfolio-images">
           <a

@@ -22,8 +22,12 @@ function App() {
         <Header />
         <div></div>
         <Switch>
-          {/* <Route path='/signup' component={ Signup } /> */}
-          <Route exact path="/" component={Profile} />
+          <Route
+            exact
+            path="/"
+            component={Profile}
+            // render={({ Header }) => <Header location={Header} />}
+          />
           <Route exact path="/SaveTheBurger" component={SaveTheBurger} />
           <Route exact path="/DevJobsUsa" component={DevJobsUsa} />
           <Route exact path="/SetAside" component={SetAside} />

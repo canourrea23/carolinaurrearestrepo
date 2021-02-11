@@ -22,34 +22,35 @@ const Genocafe = () => {
           <hr />
         </div>
         <div className="button">
-          <a
-            href="https://canourrea23.github.io/genocafe-client"
-            target="_blank"
-          >
+          <a href="https://genocafe-client.herokuapp.com/" target="_blank">
             Live Site
           </a>
-          <a href="https://genocafe-client.herokuapp.com/" target="_blank">
+          <a
+            href="https://github.com/canourrea23/genocafe-client"
+            target="_blank"
+          >
             Github
           </a>
           <p>
-            Dreamstate is an interactive MERN application that enables users to
-            understand their dreams through data visualizations and keyword
-            analysis.
+            Genocafe is a coffee merchandising product website. To inform,
+            display and show what Genocafe has and is. to create an interactive
+            website. For cumsomers to see and learn about each product
           </p>
           <p>
-            Our objective was to provide engaging dream analysis with as minimal
-            input as possible from the user. Working with the AWS Sentiment API,
-            data scraping, and Recharts, we created a framework that provides
-            data visuals of individual dreams, sentiment over time, and commonly
-            occurring symbols in the user's dreams.
+            My objective was to create a front end the was interactive and re
+            sponsive with the customers, I was able to that through React. I
+            wanted to make the backend easy to manage for non-coders, I was able
+            to do this by using Django and its Django built-in Adim. Taking
+            avantage of that feature any aministrator can use the CRUD method in
+            a gui friendly way to update products.
           </p>
-          <p>
+          {/* <p>
             My primary contributions to this project were concepting the overall
             design direction, front end and responsive development, data
             scraping, and implementing CRUD routes through React and Mongo. Our
             group practiced pair programming in the initial sprint and managed
             workloads through Trello on subsequent sprints.
-          </p>
+          </p> */}
         </div>
         <div class="portfolio-images" style={{ border: "1px solid #81b29a" }}>
           <a

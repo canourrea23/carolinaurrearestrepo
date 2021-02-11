@@ -53,7 +53,12 @@ const SetAside = () => {
             budgeted. Previous Monthly breakdowns are available with details on
             whether a user was over budget or under budget.
           </p>
-          <p>I was encharged of vitually create and input the information .</p>
+          <p>
+            I was encharged of vitually create and input the information. By
+            using lifecycle method to check for user to signed in to pull the
+            correct data of user and have visualizations to display budget
+            progression and spending with a pie-chart
+          </p>
         </div>
         <div class="portfolio-images">
           <a href="https://set-aside.herokuapp.com/" target="_blank">

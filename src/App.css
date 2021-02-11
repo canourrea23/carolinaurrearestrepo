@@ -241,7 +241,7 @@ a.nav-resume:hover {
 	background: var(--greenish-color);
 	height: 100vh;
 	width: 100%;
-	padding-top: 125px;
+	padding-top: 250px;
 	font-size: 2.80em;
 	line-height: 2em;
 	transform: skewY(25.5deg);
@@ -255,7 +255,7 @@ a.nav-resume:hover {
   	-webkit-animation: sizein 1s;
   	-moz-animation:    sizein 1s;
  	-o-animation:      sizein 1s;
-	  animation:         sizein 1s; 
+	animation:         sizein 1s; 
 }
 
 header {
@@ -400,7 +400,7 @@ footer a:hover .icon-label {
 .portfolio-item.dream  {
   background: url('https://res.cloudinary.com/carolinaurrea/image/upload/v1612311270/Screen_Shot_2021-02-02_at_7.13.03_PM_ct7pno.png') no-repeat;
   background-size: 90%;
-  width: 380px;
+  /* width: 380px; */
   background-position: 50% 50%;
 }
 
@@ -420,7 +420,7 @@ footer a:hover .icon-label {
   background: url('https://res.cloudinary.com/carolinaurrea/image/upload/v1612325632/Screen_Shot_2021-02-02_at_11.11.19_PM_kcvzyh.png') no-repeat;
   border: 1px solid #81b29a;
   background-size: 70%;
-  width: 250px;
+  /* width: 250px; */
   background-position: 50% 50%;
 }
 
@@ -430,13 +430,16 @@ footer a:hover .icon-label {
 
 .portfolio-item.dream h3, .portfolio-item.dream h5, .portfolio-item.skincare h3, .portfolio-item.skincare h3 {
 	color: var(--font-color);
+	text-align: center;
 }
 
 .portfolio-item.blackjack h3, .portfolio-item.blackjack h5{
-	color:var(--purple-color)
+	color:var(--purple-color);
+	text-align: center;
 }
 .portfolio-item.plant h5 {
 	color: white;
+	text-align: center;
 }
 
 .portfolio-item:hover {
@@ -953,6 +956,9 @@ div.section.project-nav {
 	nav.is-open:not(.nav-scrolling) {
 		background: rgba(256, 256, 256, .97);
 	}
+	.header-background {
+		transform: skewY(26deg);
+	}
 
 	footer p {
 		display: block;
@@ -1000,6 +1006,7 @@ div.section.project-nav {
 
 	.header-content {
 		width: 100%;
+		transform: skewY(-46.4deg);
 		padding: 50px;
 		font-size: .6em;
 	}

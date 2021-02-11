@@ -1,5 +1,6 @@
 import { Transition, CSSTransition } from "react-transition-group";
 import React from "react";
+// import Header from "./Header";
 
 const Profile = () => {
   return (
@@ -124,12 +125,12 @@ const Profile = () => {
           </div>
           <div>
             <div className="portfolio-item skincare">
-              {/* <a href="/DevJobsUsa.js" alt="Dev Jobs"> */}
-              <div className="portfolio-text">
-                <h3>Job Dev USA</h3>
-                <h5>JavaScript | Sequelize | Node | Data Scrapping</h5>
-              </div>
-              {/* </a> */}
+              <a href="/DevJobsUsa" alt="Dev Jobs">
+                <div className="portfolio-text">
+                  <h3>Job Dev USA</h3>
+                  <h5>JavaScript | Sequelize | Node | Data Scrapping</h5>
+                </div>
+              </a>
             </div>
           </div>
           <div>
