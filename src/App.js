@@ -7,7 +7,7 @@ import "./App.css";
 // import Welcome from './components/Welcome';
 import Navbar from "./components/Navbar";
 import Profile from "./components/Profile";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SetAside from "./components/SetAside";
 import SaveTheBurger from "./components/SaveTheBurger";
@@ -19,14 +19,12 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="container mt-5">
-        <Header />
         <div></div>
         <Switch>
           <Route
             exact
             path="/"
             component={Profile}
-            // render={({ Header }) => <Header location={Header} />}
           />
           <Route exact path="/SaveTheBurger" component={SaveTheBurger} />
           <Route exact path="/DevJobsUsa" component={DevJobsUsa} />

@@ -395,6 +395,8 @@ footer a:hover .icon-label {
 	margin: 0 auto;
 	width: 100%;
 	letter-spacing: 1px;
+	margin-top: 25%;
+	/* margin-left: 7%; */
 }
 
 .portfolio-item.dream  {

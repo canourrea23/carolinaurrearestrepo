@@ -1,28 +1,12 @@
 import { Transition, CSSTransition } from "react-transition-group";
 import React from "react";
-// import Header from "./Header";
+import Header from "./Header";
 
 const Profile = () => {
   return (
     // About
     <div>
-      {/* <div>
-        <div className="header-background">
-          <div id="top">
-            <div className="header-content">
-              <h1 className="header-name">
-                Carolina<br></br>Urrea Restrepo
-              </h1>
-              <br></br>
-              <h4 className="header-subhead">Software Engineer</h4>
-              <a href="#about" className="green-arrow">
-                <img src="https://res.cloudinary.com/carolinaurrea/image/upload/v1612315364/arrow_fggayr.png" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
+      <Header />
       <div>
         <div className="section" id="about">
           <div className="flex-grid nowrap">
@@ -138,9 +122,7 @@ const Profile = () => {
               <a exact href="/SetAside" alt="SetAside">
                 <div className="portfolio-text">
                   {/* <h3>SetAside</h3> */}
-                  <h5 style={{ marginTop: "15%" }}>
-                    React | MongoDB | Node | Data Visualization
-                  </h5>
+                  <h5>React | MongoDB | Node | Data Visualization</h5>
                 </div>
               </a>
             </div>
@@ -161,3 +143,8 @@ const Profile = () => {
   );
 };
 export default Profile;
+
+
+function double(numbers) {
+  
+}
