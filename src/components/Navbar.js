@@ -1,7 +1,6 @@
 import React from "react";
 import { nav } from "react-router-dom";
-import { hamburger } from "hamburgers";
-import { Squeeze as Hamburger } from "hamburger-react";
+// import "../hamburgers.scss"
 
 const Navbar = (props) => {
   return (
