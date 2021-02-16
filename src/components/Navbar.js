@@ -27,11 +27,11 @@ const Navbar = (props) => {
         >
           Resume
         </a>
-        <button className="hamburger hamburger--Squeeze" type="button">
+        {/* <button className="hamburger hamburger--Squeeze" type="button">
           <span className="hamburger-box">
             <span className="hamburger-inner"></span>
           </span>
-        </button>
+        </button> */}
       </div>
       <div className="nav-responsive">
         <a href="#about" className="nav-desktop">

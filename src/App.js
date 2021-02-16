@@ -22,11 +22,7 @@ function App() {
       <div className="container mt-5">
         <div></div>
         <Switch>
-          <Route
-            exact
-            path="/"
-            component={Profile}
-          />
+          <Route exact path="/" component={Profile} />
           <Route exact path="/SaveTheBurger" component={SaveTheBurger} />
           <Route exact path="/DevJobsUsa" component={DevJobsUsa} />
           <Route exact path="/SetAside" component={SetAside} />
