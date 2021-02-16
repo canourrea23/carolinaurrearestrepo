@@ -3,7 +3,7 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import { Component } from "react";
 
 import "./App.css";
-// import "./hamburgers.scss";
+// import "hamburgers" from "@import path/to/hamburgers";
 
 // import Welcome from './components/Welcome';
 import Navbar from "./components/Navbar";
