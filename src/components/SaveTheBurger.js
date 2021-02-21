@@ -22,7 +22,7 @@ const SaveTheBurger = () => {
           <hr />
         </div>
         <div className="button">
-          <a href="https://save-the-burger.herokuapp.com/" target="_blank">
+          <a href="https://canourrea23.github.io/" target="_blank">
             Live Site
           </a>
           <a
