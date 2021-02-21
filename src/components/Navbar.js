@@ -33,7 +33,7 @@ const Navbar = (props) => {
           </span>
         </button> */}
       </div>
-      <div className="nav-responsive">
+      <div className="nav-responsive" id="navbarToggleExternalContent">
         <a href="#about" className="nav-desktop">
           About
         </a>

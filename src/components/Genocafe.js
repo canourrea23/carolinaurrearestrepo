@@ -32,17 +32,16 @@ const Genocafe = () => {
             Github
           </a>
           <p>
-            Genocafe is a coffee merchandising product website. To inform,
-            display and show what Genocafe has and is. to create an interactive
-            website. For cumsomers to see and learn about each product
+            The Genocafe website is an interactive showcase of the coffee
+            company and its products. Visitors to the site can learn all about
+            the company, its history, and the story behind each of its coffees.
           </p>
           <p>
-            My objective was to create a front end the was interactive and re
-            sponsive with the customers, I was able to that through React. I
-            wanted to make the backend easy to manage for non-coders, I was able
-            to do this by using Django and its Django built-in Adim. Taking
-            avantage of that feature any aministrator can use the CRUD method in
-            a gui friendly way to update products.
+            I used React on the front end, to ensure a responsive experience for
+            customers. For the back end, I used Django, which allowed me to take
+            advantage of its built-in admin features and give Genocafe’s
+            employees an easy, user-friendly way to manage the site and update
+            their products.
           </p>
           {/* <p>
             My primary contributions to this project were concepting the overall

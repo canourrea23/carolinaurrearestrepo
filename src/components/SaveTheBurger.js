@@ -37,9 +37,9 @@ const SaveTheBurger = () => {
             JavaScript.
           </p>
           <p>
-            My game idea was inspired by games like space invaders and
-            centipede. I wanted to make my own twist to it that was new and
-            exciting.
+            Save the Burger is a video game inspired by classic games like Space
+            Invaders and Centipede, but with a new and exciting twist. It was
+            built using HTML, CSS, Canvas, and JavaScript.
           </p>
           {/* <p>
             My primary contributions to this project were concepting the overall

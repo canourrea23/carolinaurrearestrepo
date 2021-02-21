@@ -46,18 +46,16 @@ const SetAside = () => {
             tables to make it easy and fun to show your progress and SetAside.
           </p>
           <p>
-            SetAside is an application in which users can provide themselves
-            with a budget upon sign up. Afterwards users can the add expenses
-            they have made. Financial data will then be displayed in graphs
-            showing how much a user has spent compared to what they initially
-            budgeted. Previous Monthly breakdowns are available with details on
-            whether a user was over budget or under budget.
+            SetAside is an intuitive web app for easily tracking your finances.
+            Upon sign-up, users can set a goal and create a budget, then add
+            expenses as they come in. Built-in graphs show users how much
+            they’ve spent compared to what they initially budgeted, and monthly
+            breakdowns provide details around their current progress.
           </p>
           <p>
-            I was encharged of vitually create and input the information. By
-            using lifecycle method to check for user to signed in to pull the
-            correct data of user and have visualizations to display budget
-            progression and spending with a pie-chart
+            My primary contributions to the project were overseeing the app’s
+            authorization feature and finding engaging, visual ways to display
+            users’ spending and progression.
           </p>
         </div>
         <div class="portfolio-images">

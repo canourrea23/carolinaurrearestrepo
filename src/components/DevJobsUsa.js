@@ -29,17 +29,14 @@ const DevJobsUsa = () => {
             Github
           </a>
           <p>
-            Dreamstate is an interactive MERN application that enables users to
-            understand their dreams through data visualizations and keyword
-            analysis.
+            This website is to be informative data for developers who are
+            considering to relocate for a job. They can factor different points
+            of cost of living to make an informed decision.
           </p>
           <p>
-            This website is to be informative data for developers who 
-          </p>
-          <p>
-            My primary contributions to this project were concepting the overall
-            design direction, front end and responsive development, data
-            scraping, and implementing CRUD routes through React and Sequelize.
+            My contributions to the project included establishing the overall
+            design direction, front end development, data scraping, and
+            implementing CRUD routes via React and Sequelize.
           </p>
         </div>
         <div class="portfolio-images" style={{ border: "1px solid #81b29a" }}>
