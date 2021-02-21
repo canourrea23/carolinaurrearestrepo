@@ -4,10 +4,10 @@ import { Transition } from "react-transition-group";
 const SaveTheBurger = () => {
   return (
     <div>
-      <a href="/SetAside" className="project-arrow back">
+      <a href="/Genocafe" className="project-arrow back">
         <i class="fas fa-caret-left"></i>
       </a>
-      <a href="/Genocafe" class="project-arrow forward">
+      <a href="/DevJobsUsa" class="project-arrow forward">
         <i class="fas fa-caret-right"></i>
       </a>
       <div class="section portfolio">

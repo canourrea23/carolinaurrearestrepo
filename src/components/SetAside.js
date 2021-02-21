@@ -4,10 +4,10 @@ import React from "react";
 const SetAside = () => {
   return (
     <div>
-      <a href="/Genocafe" className="project-arrow back">
+      <a href="/DevJobsUsa" className="project-arrow back">
         <i class="fas fa-caret-left"></i>
       </a>
-      <a href="/SaveTheBurger" class="project-arrow forward">
+      <a href="/Genocafe" class="project-arrow forward">
         <i class="fas fa-caret-right"></i>
       </a>
       <div class="section portfolio">
