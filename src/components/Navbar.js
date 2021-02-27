@@ -43,18 +43,21 @@ const Navbar = (props) => {
         <a href="#contact" className="nav-desktop">
           Contact
         </a>
-        <a href="img/Jacquelyn_Marcella_Resume.pdf" target="_blank">
+        <a
+          href="https://drive.google.com/file/d/1qF-50shrIvfjOtvAbU-cyDfjSUAy6kLT/view"
+          target="_blank"
+        >
           Resume
         </a>
         <a
-          href="https://github.com/jacquelynmarcella"
+          href="https://github.com/canourrea23"
           target="_blank"
           className="nav-contact"
         >
           <i className="fab fa-github fa-lg"></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/jmarcella/"
+          href="https://www.linkedin.com/in/carolina-urrea-restrepo"
           target="_blank"
           className="nav-contact"
         >
