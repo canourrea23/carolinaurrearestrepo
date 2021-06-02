@@ -41,11 +41,11 @@ const Profile = () => {
               </p> */}
               <p>
                 When I was in college, I learned that I had a learning
-                disability. It finally gave insight on my past struggles with
+                disability. It finally gave insight into my past struggles with
                 school and absorbing information, and I was able to understand
                 my brain and how I learn best for me. Eventually, I was able to
-                play to my strengths and have patience to work on my weaknesses.
-                Not only has it helped me learn to ask for help, and
+                play to my strengths and have the patience to work on my
+                weaknesses. Not only has it helped me learn to ask for help and
                 communicate, but I've also been able to spot quickly when a
                 colleague is having difficulty processing and I'm able to
                 teach/collaborate in a way they can better understand.

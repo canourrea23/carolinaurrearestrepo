@@ -21,7 +21,7 @@ const Navbar = (props) => {
           Contact
         </a>
         <a
-          href="https://drive.google.com/file/d/1qF-50shrIvfjOtvAbU-cyDfjSUAy6kLT/view"
+          href="https://docs.google.com/document/d/1SFU9Uu05ad1YH3FoPeIlyHoDYTVAof7nikPH2EpB_-A/edit?usp=sharing"
           target="_blank"
           className="nav-resume nav-desktop"
         >
