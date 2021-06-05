@@ -58,8 +58,8 @@ const Navbar = (props) => {
         </a>
         <a
           href="https://www.linkedin.com/in/carolina-urrea-restrepo"
-          target="_blank"
           className="nav-contact"
+          target="_blank"
         >
           <i className="fab fa-linkedin fa-lg"></i>
         </a>
