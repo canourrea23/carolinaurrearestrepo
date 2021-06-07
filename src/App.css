@@ -84,13 +84,16 @@ div.section, .portfolio-images {
 	transition: all 2s;
 }
 
+/* .flex-grid div{
+	width: 50%;
+} */
 .flex-grid {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: stretch;
 	margin: 0 auto;
-	
+	justify-content: center;
 }
 
 .flex-grid.nowrap {
@@ -956,6 +959,13 @@ div.section.project-nav {
 
 }
 
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){ 
+/* and (orientation : portrait) { */
+}
+
 /* Mid sized */
 @media all and (max-width: 780px){
 
@@ -995,6 +1005,9 @@ div.section.project-nav {
 
 /* Mobile */
 @media all and (max-width: 500px){
+	flex-grid div{
+		width: 100%;
+	}
 
 	nav.slidedown,
 	nav.slideup {
@@ -1106,6 +1119,6 @@ div.section.project-nav {
 	}
 }
 
-/* *{
+*{
   border: 1px solid red;
-}   */
+}  
