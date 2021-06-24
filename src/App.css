@@ -1116,9 +1116,13 @@ and (max-device-width : 1024px){
 	} */
 	.green-arrow img {
 		width: 25px;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: 100;
 	}
 }
 
-/* *{
+*{
   border: 1px solid red;
-}   */
+}  

@@ -22,7 +22,7 @@ const Genocafe = () => {
           <hr />
         </div>
         <div className="button">
-          <a href="https://genocafe-client.herokuapp.com/" target="_blank">
+          <a href="https://genocafe-client.vercel.app/" target="_blank">
             Live Site
           </a>
           <a
