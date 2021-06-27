@@ -12,7 +12,7 @@ const Header = () => {
               </h1>
               <br></br>
               <h4 className="header-subhead">Software Engineer</h4>
-              <a href="#about" className="green-arrow">
+              <a href="#about-me" className="green-arrow">
                 <img src="https://res.cloudinary.com/carolinaurrea/image/upload/v1612315364/arrow_fggayr.png" />
               </a>
             </div>

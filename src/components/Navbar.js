@@ -41,6 +41,7 @@ const Navbar = (props) => {
           Projects
         </a>
         <a href="#contact" className="nav-desktop">
+          <img src="https://res.cloudinary.com/carolinaurrea/image/upload/v1612315364/arrow_fggayr.png" />
           Contact
         </a>
         <a

@@ -10,6 +10,7 @@ const Profile = () => {
       <div>
         <div className="section" id="about">
           <div className="flex-grid nowrap">
+          <a name="about-me"></a>
             <div className="about-item headshot">
               <br />
               <br />
@@ -119,6 +120,7 @@ const Profile = () => {
       </div>
       {/* <!-- Projects --> */}
       <div className="section" id="featured-projects">
+        <a name="featured-projects"></a>
         <h2>Featured Projects</h2>
         <hr />
         <div className="flex-grid">
