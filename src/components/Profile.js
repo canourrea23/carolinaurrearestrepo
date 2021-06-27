@@ -8,9 +8,9 @@ const Profile = () => {
     <div>
       <Header />
       <div>
-        <div className="section" id="about">
+        <div style={{ zIndex: 100 }} className="section" id="about">
           <div className="flex-grid nowrap">
-          <a name="about-me"></a>
+            <a name="about-me"></a>
             <div className="about-item headshot">
               <br />
               <br />
