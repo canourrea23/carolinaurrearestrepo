@@ -52,8 +52,8 @@ const Profile = () => {
                 teach/collaborate in a way they can better understand.
               </p>
               <p>
-                When I’m not programming, I love to travel and discover new
-                places.
+                When I’m not programming, I love to travel and discover
+                new&nbsp;places.
               </p>
               {/* <p>
                 I like to spend my time outside of programming meeting new
