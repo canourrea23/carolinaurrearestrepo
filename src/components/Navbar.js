@@ -45,7 +45,7 @@ const Navbar = (props) => {
           Contact
         </a>
         <a
-          href="https://docs.google.com/document/d/161w5jIZQiu9RznzDiTwv-0PVFjKlk7GhlRVyxYcCea4/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1cpn2IPA4zX1LV0X6aWpthyKLNtiClAgv/view?usp=sharing"
           target="_blank"
         >
           Resume
