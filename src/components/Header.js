@@ -5,7 +5,7 @@ const Header = () => {
     <div>
       <div className="header-background">
         <header id="top">
-          <div>
+          <div className='header-con'>
             <div className="header-content">
               <h1 className="header-name" style={{ marginTop: "-200" }}>
                 Carolina<br></br>Urrea Restrepo

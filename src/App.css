@@ -23,6 +23,7 @@ body {
 	font-weight: 400;
 	margin: 0;
 	line-height: 2em;
+	overflow-y: none;
 }
 
 p {
@@ -1018,7 +1019,10 @@ and (max-device-width : 1024px){
 	flex-grid div{
 		width: 100%;
 	}
-
+	body {
+		overflow-y: none;
+		width: 100%;
+	}
 	nav.slidedown,
 	nav.slideup {
 		animation-delay: 250ms;
@@ -1037,16 +1041,19 @@ and (max-device-width : 1024px){
   		animation:         none; 
 
 	}
-
+	.header-con {
+		width: 100%;
+	}
 	.header-content {
 		width: 100%;
 		transform: skewY(-46.4deg);
 		padding: 50px;
 		font-size: .6em;
+		/* width: 90%; */
 	}
 	
 	.header-content h4 {
-		font-size: .5em;
+		font-size: .4em;
 		line-height: 2.25em;
 	}
 
