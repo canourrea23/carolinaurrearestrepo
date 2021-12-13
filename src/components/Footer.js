@@ -28,7 +28,7 @@ const Footer = () => {
         </p>
         <p>
           <a
-            href="https://docs.google.com/document/d/161w5jIZQiu9RznzDiTwv-0PVFjKlk7GhlRVyxYcCea4/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1enc04qe6wi_nDjBrccVhUTQ9pvLLXn3m2hLDZkEL5AM/edit?usp=sharing"
             target="_blank"
           >
             <i className="fas fa-file-alt fa-lg"></i>{" "}
